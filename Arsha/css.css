@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: auto;
+}
+.clearfix{
+    clear: both;
+}
+nav{
+    width: 100%;
+    height: auto;
+    background-color: rgb(55, 81, 126) !important ;
+    color: #fff;
+    padding: 15px 0 !important;
+}
+nav li{
+    margin: 0 5px;
+}
+/*
+nav a{
+    font-size: 35px;
+}
+*/
+.sp{
+    position: absolute;
+    top: 8;
+    right: 65
+}
+header{
+    width: 100%;
+    height: auto;
+    background-color: #37517e!important ;
+    color: #fff;  
+    padding: 50px 0 ;
+}
+.animate__animated {
+    animation: bounce;
+    animation-duration: 3s;
+}
+header h4{
+    margin: 15px 0 ;
+    line-height: 1.5;
+}
+header button{
+    background-color: #47b2e4;
+    margin-top: 20px
+}
+header .btn1{
+    background-color: transparent;
+    border: none;
+}
+header img{
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-name: updown
+}
+
+@keyframes updown{
+    to{
+        top: 50px;
+    }
+    from{
+        top: 0;
+    }
+}
+.cliens{
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 40px 0;
+} 
+
+.about{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 50px 0;
+    padding: 50px 0;
+}
+
+.box{
+    width: 48%;
+    margin-top: 30px;
+}
+
+.box i{
+    font-size: 15px;
+}
+.about button{
+    color: black;
+    border-radius: 0;
+}
+
+.eum{
+    width: 100%;
+    height: auto;
+    background-color: #f3f5fa;
+    padding: 50px 0;
+}
+.eum li{
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.eum span{
+    color: #47b2e4;;
+    margin-right: 10px;
+}
+.eum a{
+    color: black;
+}
+.eum i{
+    font-size: 18px;
+    position: absolute;
+    right: 30;
+}
+.eum p{
+    margin: 10px 0;
+    margin-right: 20px;
+}
+
+.rate{
+    width: 100%;
+    height: auto;
+    margin: 70px 0 ;
+}
+.rate .rat{
+    width: 100%;
+    height: 300px;
+/*    background-color: antiquewhite;*/
+}
+.rate .rat .r{
+    width: 100%;
+    height: 20%;
+/*    background-color: #999;*/
+    margin: 10px;
+}
+.rate .rat .r .color{
+    width: 100%;
+    height: 15px;
+    background-color: #e8edf5;
+}
+.rate .rat .r .color span{
+    background-color: #4668a2;
+    height: 100%;
+    display: block;
+    line-height: 15px;
+}
+.rate .rat .r .text span{
+    color: #4668a2;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.service{
+    width: 100%;
+    height: auto;
+    background-color: #e8edf5;
+    padding-top: 50px;
+    line-height: 1.6;
+}
+
+.service .ser
+{
+    margin: 20px 0;
+    width: 100%;
+    height: 250px;
+    padding: 25px;
+    transition: all ease-in-out 0.4s;
+    background: #fff;
+}
+.service .ser i{
+    font-size: 40px;
+    color: #47b2e4;
+    margin: 10px 0;
+}
+
+.call{
+    width: 100%;
+    height: auto;    
+    background-image: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(img/cta-bg.jpg);
+    background-size: cover;
+    padding: 120px 0;
+    color: #fff;
+    
+}
+.call p{
+    color: #fff;
+}
+
+.portfolio{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    margin-bottom: 50px;
+} 
+.portfolio ul{
+    text-align: center;
+    margin: 20px 0;
+}
+.portfolio a{
+    color: black;
+}
+.portfolio img{
+    max-height: 500px;
+    margin: 15px 0;
+}
+
+.team{
+    width: 100%;
+    height: auto;
+    background-color: #f3f5fa;
+    padding-top: 50px;
+}
+.tee{
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 15px;
+}
+.team .img{
+    width: 30%;
+    
+}
+.team .img img{
+    border-radius: 50%;
+}
+.team .text{
+    margin-left: 25px;
+}
+.team .text i{
+    width: 35px;
+    height: 35px;
+    margin: 0 10px;
+    background-color:  #f3f5fa;
+    border-radius: 50%;
+}
+
+.price{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+.price .pri{
+    width: 100%;
+    flex-direction: column;
+    margin: 40px  0;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+    background: #fff;
+}
+.price .pri .sal{
+    margin: 20px 12;
+    margin-top: 40px;
+    text-align: left;
+    line-height: 2.5;
+}
+.price .pri .true{
+    line-height: 2;
+    font-size: 18px;
+}
+.price i{
+    font-size: 18px;
+    color: #28a745;
+    margin: 0 5;
+}
+.price .tim{
+    color: #ccc;
+    text-decoration: line-through;
+}
+.price .time{
+    font-size: 20px;
+        color: #ccc;
+    margin: 0 7;
+}
+.price button{
+    width: 50%;
+    color: #47b2e4;
+}
+.price .btn1{
+    background-color: #47b2e4;
+    color: #fff
+}
+
+
+.ask{
+    width: 100%;
+    height: auto;
+    background-color: #f3f5fa;
+    padding: 50px;
+}
+.ask .box{
+    width: 100%;
+}
+.ask li{
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.ask p{
+    margin: 20px;
+}
+.ask a{
+    color: #37517e;
+    font-size: 20px;
+}    
+.ask i{
+    font-size: 20px;
+    color: #47b2e4;
+    margin: 0 15
+}
+
+.contact{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+.contact .top{
+    margin-bottom: 40px;
+}
+.contact .location{
+    margin: 25px 0;}
+.to{
+    padding: 20px;
+    box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+}
+form{
+    padding: 20px;
+    box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+}
+.contact .location i{
+    color: #47b2e4;
+}
+.contact .text{
+    margin-left: 25px;
+}
+
+.join{
+    width: 100%;
+    height: auto;
+    background: #f3f5fa;
+    padding: 50px 0;
+}
+.join #form{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.join input{
+    width: 100%;
+    height: 40px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+}
+.join button{
+    height: 40px;
+    background-color: #47b2e4;
+    position: absolute;
+    right: 0;
+    border: none
+}
+
+footer{
+    width: 100%;
+    height: auto;   
+}
+footer a{
+    color: #47b2e4;
+    line-height: 1.9;
+}
+#footer1{
+  padding: 50px 0;
+    color: #47b2e4;
+}
+#footer1 .info,
+#footer1 .text{
+    margin: 30px 0;
+}
+#footer1 i{
+    padding-right: 15;
+}
+#footer1 .text  i{
+    font-size: 35px;
+    
+}
+#footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+    background-color: #37517e;
+}
+#footer .copyright {
+  float: left;
+}
+
+#footer .credits {
+  float: right;
+  font-size: 13px;
+}
+
+#footer .credits a {
+  transition: 0.3s;
+}
+h2,h3{
+    color: #4668a2
+}
+p{
+    color: #444;
+}
+.top h2,
+.top p{
+    text-align: center;
+    margin: 15px 0;
+}
+
+
+h1,h2,h3,h4,h5,h6,p,span,button{
+    text-transform: capitalize;
+}
+a{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+a:hover{
+    color: #47b2e4;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+button{
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 20px;
+    background-color: transparent;
+    border: 2px solid #47b2e4;
+    font-weight: 500;
+}
+ul{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+i{
+    font-size: 20px;
+    padding: 5px;
+}
